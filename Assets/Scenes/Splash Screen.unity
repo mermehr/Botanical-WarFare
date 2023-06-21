@@ -731,6 +731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2840454944009485180, guid: bc682415484a1a14d97807d8161e2986, type: 3}
+      propertyPath: timeTowait
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2840454944009485181, guid: bc682415484a1a14d97807d8161e2986, type: 3}
       propertyPath: m_Name
       value: LevelLoader
