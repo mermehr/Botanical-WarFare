@@ -6,6 +6,7 @@ public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)]
     float currentSpeed = 1.0f;
+    GameObject currentTarget;
 
     void Update()
     {
@@ -16,4 +17,21 @@ public class Attacker : MonoBehaviour
     {
         currentSpeed = speed;
     }
+
+    /*public void Attack(GameObject target)
+    {
+        GetComponent<Animator>().SetBool("isAttacking", true);
+        currentTarget = target;
+    }
+
+    public void StrikeCurrentTarget(float damage)
+    {
+        if (!currentTarget) { return; }
+        Health health = GetComponent<Health>();
+        if (health)
+        {
+            health.DealDamage(damage);
+        }
+    }
+    */
 }
