@@ -7,11 +7,26 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Splash Screen.unity
-    guid: c9b9df0d47a86fd449cf1986c3cf4fee
+    guid: 998ee037ac7cd414ca51b5e5204096df
   - enabled: 1
     path: Assets/Scenes/Start Screen.unity
     guid: 6db973b8c43300645b495c594996d89e
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 4fa3760fb3e52ea4181c9512304ae01f
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 98c98dbecc47eea4d9dfc2269a9bb8e5
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 1dc56af17b66b91498f7c80307e6cd97
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: 53d94a07343846a4498332dd60ee6f45
+  - enabled: 1
+    path: Assets/Scenes/Options Screen.unity
+    guid: c9b9df0d47a86fd449cf1986c3cf4fee
+  - enabled: 1
+    path: Assets/Scenes/Lose Screen.unity
+    guid: 1ef1d44ec5b4c604e816d90090e978c3
   m_configObjects: {}

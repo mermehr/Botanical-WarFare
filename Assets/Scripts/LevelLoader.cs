@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
+
     [SerializeField] int timeTowait = 3;
     int currentSceneIndex;
 
@@ -23,9 +24,36 @@ public class LevelLoader : MonoBehaviour
         LoadNextScene();
     }
 
+    public void RestartScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Start Screen");
+    }
+
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    public void LoadYouLoose()
+    {
+        SceneManager.LoadScene("Lose Screen");
+    }
+
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("Options Screen");
+    }
+
+    public void QuitGame()
+    {
+            Application.Quit();
     }
 
 }
